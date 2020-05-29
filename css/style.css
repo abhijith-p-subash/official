@@ -1,0 +1,467 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-custom {
+  background: #2a2b2d;
+}
+
+.siva {
+  color: #2da8d8ff;
+  text-decoration: none;
+  font-size: 100%;
+
+}
+
+.nav-link {
+  color: #2da8d8ff;
+}
+
+.nav-link:hover {
+  color: rgb(2, 134, 187);
+}
+
+.img-slide {
+  object-fit: fill;
+
+}
+
+.navbar {
+  padding: .8rem;
+
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+
+}
+
+.nav-link {
+  font-size: 1.1em !important;
+
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 50%;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-caption h2 {
+  font-size: 455%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000000;
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.carousel-caption h3 {
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000000;
+  padding-bottom: 1rem;
+}
+
+.carousel-caption p {
+  font-size: 240%;
+  font-weight: 500;
+  text-shadow: 5px 5px 5px #000000;
+  padding-bottom: 1rem;
+}
+
+.head-title-3 {
+  font-style: italic;
+  padding-bottom: 100px;
+}
+
+
+.logo-siva {
+  width: 100%;
+  height: 100%;
+}
+
+
+.icon-packes {
+  color: #2da8df;
+  font-size: 4em;
+  margin: 1rem;
+
+}
+
+.icon-dis {
+  color: #ffffff;
+  border-color: aqua;
+  border-radius: 5px;
+
+}
+
+.welcome-tab {
+  background-image: url('map1.jpg');
+  background-position: center;
+}
+
+.main-logo {
+  width: 80%;
+}
+
+
+
+/*--- Fixed Background Image --*/
+#fixed-back {
+  background: url("gears-1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  padding: 0%;
+  margin: 0%;
+}
+
+.space {
+  margin-top: 40px;
+}
+
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+  padding: 1rem;
+}
+
+/* Our services */
+.btn-primary {
+  background-color: #2da8df;
+  border: 1px solid #16526d;
+
+}
+
+.btn-primary:hover {
+  background-color: #0275aa;
+  border: 1px solid #16526d;
+}
+
+.title-head {
+  color: #2da8df;
+  font-size: 300%;
+}
+
+
+
+
+/* photobanner */
+
+#container {
+  width: 1000px;
+  overflow: hidden;
+  margin: 0px auto;
+  background: white;
+}
+
+.photobanner {
+  height: 184px;
+  width: 3550px;
+  margin-bottom: 80px;
+}
+
+.roll-img {
+  width: 350px;
+  height: 233px;
+}
+
+
+
+
+/*keyframe animations*/
+.first {
+  -webkit-animation: bannermove 30s linear infinite;
+  -moz-animation: bannermove 30s linear infinite;
+  -ms-animation: bannermove 30s linear infinite;
+  -o-animation: bannermove 30s linear infinite;
+  animation: bannermove 30s linear infinite;
+}
+
+@keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+  }
+
+  100% {
+    margin-left: -2125px;
+  }
+
+}
+
+@-moz-keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+  }
+
+  100% {
+    margin-left: -2125px;
+  }
+
+}
+
+@-webkit-keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+  }
+
+  100% {
+    margin-left: -2125px;
+  }
+
+}
+
+@-ms-keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+  }
+
+  100% {
+    margin-left: -2125px;
+  }
+
+}
+
+@-o-keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+  }
+
+  100% {
+    margin-left: -2125px;
+  }
+
+}
+
+.footer {
+  background: #2a2b2d;
+  color: #2da8df;
+  width: 100%;
+}
+
+.line {
+  border-top: 1px solid #646464;
+  width: 100%;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+
+}
+
+hr.light-100 {
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+
+}
+
+
+/* footer social media */
+.social-menu ul {
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  display: flex;
+  text-align: center;
+}
+
+.social-menu ul li {
+  list-style: none;
+  margin: 0 15px;
+}
+
+.social-menu-icon {
+  font-size: 30px;
+  line-height: 100px;
+  transition: 0.4s;
+  color: #2da8df;
+}
+
+.social-menu-icon:hover {
+  color: #16526d;
+}
+
+.social-menu-icon:hover {
+  transform: translate(0, -10px);
+}
+
+.footer-follow {
+  font-size: 114%;
+  padding-bottom: 5%;
+  padding-top: 4%;
+}
+
+
+/* electrical designs */
+.ele-header {
+  background-image: url('electric-b.jpg');
+  background-size: cover;
+  background-position: 100% 80%;
+
+  background-repeat: no-repeat;
+}
+
+.ele-text {
+  padding-top: 15%;
+  padding-left: 5%;
+  color: #2da8df;
+}
+
+.ele-sub-text {
+  color: #586a72;
+  padding-left: 5%;
+  font-style: italic;
+}
+
+.ele-content {
+  background-image: url('map1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.ele-video {
+  width: 90%;
+  text-decoration: none;
+  padding-top: 8%;
+  outline: none;
+  
+}
+
+.ele-para {
+  padding-top: 8%;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+/* Plumbing design */
+
+.plum-header {
+  background-image: url('plumbing.jpg');
+  background-size: cover;
+  background-position: 100% 80%;
+  background-repeat: no-repeat;
+}
+
+/* documentation */
+.docu-header {
+  background-image: url('document-b.jpg');
+  background-size: cover;
+  background-position: 100% 40%;
+  background-repeat: no-repeat;
+}
+
+/* about us */
+.about-header {
+  background-image: url('about.jpg');
+  background-size: cover;
+  background-position: 100% 80%;
+  background-repeat: no-repeat;
+}
+
+#fixed-about {
+  background: url("about-back.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  padding: 0%;
+  margin: 0%;
+}
+
+.about-content {
+  padding: 8%;
+  font-style: italic;
+  color: #414141;
+  font-size: 110%;
+}
+
+/* Our-value */
+.our-value-para {
+  padding-left: 4%;
+  padding-right: 4%;
+
+}
+
+.icon-packes-abu {
+  color: #2da8df;
+  font-size: 2em;
+  margin: 1rem;
+}
+
+.value-head {
+  color: #158cc4;
+}
+
+.value-head-para {
+  color: #aeb8bd;
+  font-style: italic;
+  font-size: 85%;
+}
+
+.about-content-mis-vis {
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 4%;
+  font-style: italic;
+  color: #414141;
+}
+
+.img-mission {
+  width: 100%;
+  padding: 8%;
+}
+
+.our-mission {
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 8%;
+  color: #16526d;
+}
+
+.our-mission hr {
+  border-top: 1px solid #2a2b2d;
+}
+
+/* contact */
+.contact-header {
+  background-image: url('contact-b.jpg');
+  background-size: cover;
+  background-position: 100% 60%;
+  background-repeat: no-repeat;
+}
+
+.contact-content {
+  padding-top: 3%;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-bottom: 0%;
+  font-style: italic;
+  color: #414141;
+  font-size: 110%;
+}
+.contact-form{
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.map{
+  background: #2b2b2b46;
+  
+  
+}
+.Contact-num{
+text-align: left;
+}

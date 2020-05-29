@@ -1,0 +1,228 @@
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+/*---Media Queries --*/
+@media (min-width: 1200px) {
+  .carousel-caption {
+
+    top: 30%;
+  }
+}
+
+@media (max-width: 992px) {
+  .social a {
+    font-size: 4rem;
+    padding: 2rem;
+  }
+
+  .carousel-caption {
+
+    top: 20%;
+  }
+
+  .carousel-caption h2 {
+    font-size: 250%;
+
+  }
+
+  .carousel-caption h3 {
+    font-size: 110%;
+    font-weight: 400;
+
+    padding-bottom: 0.2rem;
+  }
+
+  .carousel-caption p {
+    font-size: 110%;
+    font-weight: 400;
+
+    padding-bottom: 0.2rem;
+  }
+
+  /* photobanner */
+  #container {
+    width: 930px;
+  }
+
+  .roll-img {
+    width: 280px;
+    height: 186px;
+  }
+
+
+
+}
+
+@media (max-width: 768px) {
+
+  .carousel-caption {
+    padding-bottom: 15rem;
+    top: 30%;
+  }
+
+  .carousel-caption h2 {
+    font-size: 250%;
+
+  }
+
+  .carousel-caption h3 {
+    font-size: 110%;
+    font-weight: 400;
+
+    padding-bottom: 0.2rem;
+  }
+
+  .carousel-caption p {
+    font-size: 110%;
+    font-weight: 400;
+
+    padding-bottom: 0.2rem;
+  }
+
+
+  .display-4 {
+    font-size: 200%;
+  }
+
+  .social a {
+    font-size: 2.5rem;
+    padding: 1.2rem;
+  }
+
+  /* photobanner */
+  #container {
+    width: 660px;
+  }
+
+  .roll-img {
+    width: 245px;
+    height: 165px;
+  }
+
+
+
+}
+
+@media (max-width: 576px) {
+  .nav-title {
+    font-size: 80%;
+  }
+
+  .carousel-caption {
+    padding-bottom: 3rem;
+    top: 20%;
+  }
+
+  .carousel-caption h2 {
+    font-size: 160%;
+
+  }
+
+  .carousel-caption h3 {
+    font-size: 100%;
+    font-weight: 400;
+
+    padding-bottom: 0.2rem;
+  }
+
+  .carousel-caption p {
+    font-size: 100%;
+    font-weight: 400;
+
+    padding-bottom: 0.2rem;
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
+
+
+
+  .display-4 {
+    font-size: 160%;
+  }
+
+  .social a {
+    font-size: 2rem;
+    padding: .7rem;
+  }
+
+  /* photobanner */
+  #container {
+    width: 330px;
+  }
+
+  .roll-img {
+    width: 245px;
+    height: 165px;
+  }
+
+  .ele-text {
+    font-size: 250%;
+  }
+
+  .ele-sub-text {
+    font-size: 150%;
+  }
+
+
+  /* Aobut section order change */
+
+  .flexbox .flex-row.row {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .flexbox .flex-row [class*=flexcol-] {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .flexbox .flex-row .flexcol-editor,
+  .flexbox .flex-row .flexcol-preview {
+    width: 50%;
+  }
+
+  .flexbox .flex-row .panel {
+    width: 100%;
+  }
+
+  .flexbox .flex-row .flexcol-errors {
+    order: 2;
+    width: 100%;
+  }
+#xxx{
+  text-align: center;
+}
+
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
